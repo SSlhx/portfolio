@@ -1,0 +1,534 @@
+.hop{
+    background-color: #000000;
+    width: auto;
+    height: 100%;
+    font-family: League Spartan;
+    margin-top: 50px;
+}
+.principale{
+    width: 100%;
+    height: 750px;
+    font-family: League Spartan;
+}
+.photo_p {
+
+    max-width : 70%;
+    height : auto;
+    align-items: center;
+    border-radius: 100px;
+    
+}
+
+
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ffffff;
+ 
+}
+
+
+
+.text{
+    text-align: center;
+    height: 100%;
+    justify-content: end;
+    align-items: center;
+
+}
+
+
+.APM{
+    background-color: #9A0680;
+    width: auto;
+    height: 100%;
+    font-family: League Spartan;
+}
+
+.APM{
+    height: 100% ;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ffffff;
+ 
+}
+
+.pavé{
+    border: white 4px solid;
+    border-radius: 30px;
+    width: 800px;
+
+}
+
+.title{/* A propos de moi : */
+    display: flex;
+    justify-content: center;
+    font-family: 'Permanent Marker';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 87px;
+    text-transform: capitalize;
+ 
+
+}
+.text{
+    text-transform: capitalize;
+
+ 
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 87px;  
+    margin: 30px;
+}
+    header{
+        background-color: #9A0680;
+        border:3px solid #ffffff;
+        border-radius: 5px ;
+    }
+
+div, section{
+   /* border: 1px solid wheat;*/
+}
+
+
+.astronaute{
+position: absolute;
+left: 0%;
+right: 72.15%;
+top: 45.47%;
+bottom: 30.47%;
+
+background: url(image.png);
+}
+
+
+.a-img-txt{
+    display:grid; 
+    margin-top: 150px;
+  }
+  
+  /* les enfants se superposent */
+  .a-img-txt>*{
+    grid-area:1/1/-1/-1; 
+    /* raccourci pour grid-row et grid-column */
+  
+  }
+ 
+  /* le texte */
+  .a-txt{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#fff;
+    opacity:0;
+    filter:invert(0); /* antibug si effet sur a-img */
+    transition:opacity .8s;
+  }
+  
+  /* les couleurs c1 et c2 */
+  .c1{
+      background:#530344c2; /* avec alpha */
+  }
+  
+  /* le survol */
+  .a-txt:hover{
+    opacity:1;
+  }
+  .a-img-txt:hover .a-img{
+    filter:invert(0);
+  }
+  /* la déco */
+  
+  .a-img{
+    max-width:1000  px;
+    height:100%;
+    display: block;
+    margin: auto;
+  }
+  a{
+    text-decoration:none;
+  }
+
+  .etude{
+    background-color: #160040;
+    width: auto;
+    height: 100%;
+    font-family: League Spartan;
+}
+.etude1{
+    margin-left: 200px;
+    background-color: #160040;
+    width: auto;
+    height: 100%;
+    font-family: League Spartan;
+}
+.competence
+{
+    background-color: #4C0070;
+    width: auto;
+    height: 100%;
+    font-family: League Spartan;
+ }
+ header{
+
+    border:3px solid #ffffff;
+    border-radius: 5px ;
+}
+
+
+   p{
+    color: #ffffff;
+    
+   }
+   h1{
+       color: white;
+   }
+
+   
+   .html{
+    width: 280px;
+    height:280px;
+    margin: 20px;
+   }
+
+   .case{
+    display: block;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 10px;
+
+    
+   
+   }
+
+   .img{
+    display: block;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   .grid{
+    margin-top: 100px;
+    display: block;
+    
+   }
+
+
+
+   :root {
+    --html: #9A0680;
+    --css: #79018C;
+    --js: #160040;
+    --sql: #000000;
+    --php: #0e0a61;
+    --phpmyadm: #610a2a;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  h1 {
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+  }
+  
+  .container {
+    max-width: 720px;
+   
+    width: 100%;
+    display: block;
+    margin-left: 0px ;
+  }
+  
+  .text-center { text-align:center; }
+  
+  .progressbar-wrapper {
+    background-color: #dfe6e9;
+    color: white;
+    border-radius: 15px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+  }
+  
+  .progressbar {
+    background-color: var(--html);
+    color: gray;
+    padding: 1px;
+    text-align: right;
+    font-size: 15px;
+    border-radius: 15px;
+  }
+
+  .progressbar2 {
+    background-color: var(--css);
+    color: gray;
+    padding: 1px;
+    text-align: right;
+    font-size: 15px;
+    border-radius: 15px;
+  }
+  .progressbar3 {
+    background-color: var(--js);
+    color: gray;
+    padding: 1px;
+    text-align: right;
+    font-size: 15px;
+    border-radius: 15px;
+  }
+
+  .progressbar4 {
+    background-color: var(--sql);
+    color: gray;
+    padding: 1px;
+    text-align: right;
+    font-size: 15px;
+    border-radius: 15px;
+  }
+  .progressbar5 {
+    background-color: var(--php);
+    color: gray;
+    padding: 1px;
+    text-align: right;
+    font-size: 15px;
+    border-radius: 15px;
+  }
+  .progressbar6 {
+    background-color: var(--phpmyadm);
+    color: gray;
+    padding: 1px;
+    text-align: right;
+    font-size: 15px;
+    border-radius: 15px;
+  }
+ 
+  .progressbar2[title="downloading"] {
+     background-color: var(--css);
+  }
+
+  .progressbar3[title="download"] {
+    background-color: var(--js);
+ }
+
+ .progressbar4[title="sq"] {
+  background-color: var(--sql);
+}
+.progressbar4[title="ph"] {
+  background-color: var(--php);
+}
+
+.progressbar4[title="phpmy"] {
+  background-color: var(--phpmyadm);
+}
+  .progressbar[title="downloaded"] {
+     background-color: var(--html);
+  }
+    
+  .html5 {
+    width: 80%;
+  }
+  .css {
+    width: 80%;
+  }
+
+  .js{
+    width: 30%;
+  }
+
+  .sql{
+    width: 65%;
+  }
+  .php{
+    width: 65%;
+  }
+
+  .phpmyadm{
+    width: 70%;
+  }
+
+    .projet{
+        background-color: #79018C;
+        width: auto;
+        height: 100%;
+        font-family: League Spartan;
+    }
+    
+    header{
+        background-color: #79018C;
+        border:3px solid #ffffff;
+        border-radius: 5px ;
+    }
+    
+ 
+    
+    .APM{
+        height: 100% ;
+    }
+    
+    h1{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: #ffffff;
+     
+    }
+    
+    .rectangle {
+    margin-top: 100px;
+    
+    
+    
+    width: 900px;
+    height: 233px;
+    
+    
+    
+    background: #F5F5F5;
+    border: 2px solid #161616;
+    
+    }
+    
+    .rectangle2 {
+    
+    width: 422px;
+    height: 100%;
+    
+    
+    
+    background: #9A0680;
+    }
+    
+    .rectangle3{
+    
+        width: 422px;
+        height: 100%;
+        
+        
+        
+        background: #4C0070;
+        }
+    
+    .reve{
+    margin-top: 20px;
+    
+    width: 187px;
+    height: 46px;
+    
+    
+    
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    /* identical to box height */
+    
+    color: #252525;
+
+    
+    
+    }
+    .container {
+     
+        max-width: 720px;
+     
+        width: 100%;
+        display: block;
+        margin-left: 0px ;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+    .description{
+        color:#252525
+    }
+    
+    
+    .info{
+    
+    
+    margin-top: 100px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    
+    color: #160040;
+    
+    
+    }
+    
+    .des{
+        margin-left: 20px;
+    }
+  
+
+.veille_tech{
+    background-color: #54595F;
+    width: 100%;
+    height: 100%;
+    font-family: League Spartan;
+  
+}
+
+.APM{
+    height: 100% ;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ffffff;
+ 
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+  
+    font-family: 'Permanent Marker';
+    font-style: normal;
+ 
+    text-transform: capitalize;
+}
+
+
+
+.title{/* A propos de moi : */
+    display: flex;
+    justify-content: center;
+  
+    font-family: 'Permanent Marker';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 87px;
+    text-transform: capitalize;
+
+}
+.police{
+    font-family: 'Permanent Marker';
+    font-style: normal;
+}
+.robot{
+
+    display: block;
+    width: 30%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.video{
+    display: block;
+    
+    margin: auto;
+
+}
